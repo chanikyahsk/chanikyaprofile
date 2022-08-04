@@ -1,0 +1,40 @@
+h1{
+    text-align:center;
+}
+#tilecontainer{
+    width:95%;
+    height:400px;
+    background-color:skyblue;
+    margin:2%;
+}
+.card{
+    height:400px; 
+    background-color:#c9b594;
+    width:20%;
+    float:left;
+    margin:2%; 
+    overflow:scroll;
+    
+}
+.blue{
+    background-color: #cad6d8;
+}
+.skyblue{
+    background-color: #a2c4d7;
+}
+.brown{
+    background-color: #bb9b92;
+}
+
+.card > img{
+    width:100%; 
+    height:150px;
+}
+#maincontainer{
+    margin-left:3%;
+    display:inline-block;
+    
+}
+   
+   
+  

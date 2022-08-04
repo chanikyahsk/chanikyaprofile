@@ -1,0 +1,100 @@
+body{
+    margin:0px;
+    
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 70px;
+    /* border:5px solid black; */
+    background-color: brown;
+}
+#brand{
+    color:white;
+    font-size: 30px;
+    float: left;
+    margin-left:1%;
+    margin-top:1%;
+}
+#social{
+    float:right;
+    margin-right:1%;
+    margin-top:15px;
+}
+.socialimg{
+    height: 35px;
+}
+/* search block css */
+#container{
+    height:500px;
+    width:80%;
+    margin-left:10%;
+    margin-top:2%;
+}
+#imgdiv{
+    height:380px;
+    width:40%;
+    border:10px groove gray;
+    float:left;
+}
+#imgdiv>img{
+    height: 380px;
+    width:100%;
+}
+#contentdiv{
+    height:500px;
+    width:40%;
+    margin-left:2%;
+    float:left;
+    margin-top:-2%;
+}
+.featurecontainer{
+    width:120%;
+    display:inline-block;
+}
+figure{
+    float:left;
+    margin-left: 0%;
+}
+.futureicon{
+    height: 100px;
+    width: 100px;
+    margin-top:-20%;
+}
+h2{
+    font-size:40px;
+    color:green;
+    margin-top:1%;
+}
+.btn{
+    height: 50px ;
+    width:150px ;
+    background-color:#E23744;
+    color:white;
+    margin-top:-5%;
+}
+.green{
+    background-color: lightgreen;
+}
+
+/* footer block css */
+footer{
+    height: 150px;
+    /* border:5px double green; */
+    background-color: brown;
+    color: white;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+.fotdiv{
+    width:31%;
+    float: left;
+    border-right:2px solid white;
+}
+.noborder{
+    
+    border-right:none;
+}
