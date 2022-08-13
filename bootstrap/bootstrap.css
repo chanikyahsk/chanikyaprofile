@@ -1,0 +1,28 @@
+.slideimg{
+    width:100%;
+    height:400px !important;
+}
+#first{
+    height:200px;
+    background-color:skyblue;
+}
+#second{
+    height:200px;
+    background-color:lightgreen;
+}
+#third{
+    height:200px;
+    background-color:lightcoral;
+}
+#fourth{
+    height:200px;
+    background-color:lightsalmon;
+}
+#fifth{
+    height:200px;
+    background-color:lightgrey;
+}
+#sixth{
+    height:200px;
+    background-color:lightgoldenrodyellow;
+}
