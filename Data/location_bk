@@ -1,0 +1,100 @@
+[
+  {
+    "location_id": 1,
+    "location_name": "Ashoka Rd, Connaught Place, New Delhi, Delhi",
+    "state_id": 1,
+    "state": "Delhi",
+    "country_name": "India"
+  },
+  {
+    "location_id": 2,
+    "location_name": "Newtown, Kolkata, West Bengal",
+    "state_id": 1,
+    "state": "Kolkata",
+    "country_name": "India"
+  },
+  {
+    "location_id": 3,
+    "location_name": "Mayor Ramanathan Salai, Spur Tank road, Chennai",
+    "state_id": 1,
+    "state": "Chennai",
+    "country_name": "India"
+  },
+  {
+    "location_id": 4,
+    "location_name": "Apollo Bandar, Colaba, Mumbai, Maharashtra",
+    "state_id": 2,
+    "state": "Maharashtra",
+    "country_name": "India"
+  },
+  {
+    "location_id": 5,
+    "location_name": "35/A, Bangalore Nilgiri Rd, Nazarbad, Mysuru, Karnataka",
+    "state_id": 2,
+    "state": "Karnataka",
+    "country_name": "India"
+  },
+  {
+    "location_id": 6,
+    "location_name": "Vijayanagar, 2nd Stage, near Water tank, Mysuru",
+    "state_id": 2,
+    "state": "Mysore",
+    "country_name": "India"
+  },
+  {
+    "location_id": 7,
+    "location_name": " Ambience Convention Hotel, Delhi, Maharaja Surajmal Road, Delhi",
+    "state_id": 1,
+    "state": "Delhi",
+    "country_name": "India"
+  },
+  {
+    "location_id": 8,
+    "location_name": "JA Block, Sector III, Bidhannagar, Kolkata",
+    "state_id": 3,
+    "state": "Kolkata",
+    "country_name": "India"
+  },
+  {
+    "location_id": 9,
+    "location_name": "Velachery Rd, Little Mount, Guindy, Chennai",
+    "state_id": 3,
+    "state": "Chennai",
+    "country_name": "India"
+  },
+  {
+    "location_id": 10,
+    "location_name": "Shankar Mandal Road, Andheri East, Mumbai, Maharashtra",
+    "state_id": 3,
+    "state": "Maharashtra",
+    "country_name": "India"
+  },
+  {
+    "location_id": 11,
+    "location_name": "Halasuru, Someshwarpura, Bengaluru, Karnataka",
+    "state_id": 2,
+    "state": "Karnataka",
+    "country_name": "India"
+  },
+  {
+    "location_id": 12,
+    "location_name": "Ground Floor, Mangalore - Mysore Hwy, Jayalakshmipuram, Mysuru",
+    "state_id": 2,
+    "state": "Mysore",
+    "country_name": "India"
+  },
+  {
+    "location_id": 13,
+    "location_name": "Cash & Pay Colony, Charbagh, Lucknow, Uttar Pradesh",
+    "state_id": 4,
+    "state": "Lucknow",
+    "country_name": "India"
+  },
+  {
+    "location_id": 14,
+    "location_name": " Mt. View hotel, McLeod Ganj, Dharamshala, Himachal Pradesh",
+    "state_id": 1,
+    "state": "Dharamsala",
+    "country_name": "India"
+  }
+]
