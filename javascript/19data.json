@@ -1,0 +1,19 @@
+////JSON
+> javascript object Notation
+(Array of objects)
+
+[
+    {
+        "name": "vikram",
+        "rating":4.9,
+        "type":"action"
+    },
+    
+    {
+        "name": "kgf",
+        "rating":4.8,
+        "type":"action"
+    }
+]
+a[1].name
+'kgf'

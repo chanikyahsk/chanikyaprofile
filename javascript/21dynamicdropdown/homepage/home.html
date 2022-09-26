@@ -1,0 +1,163 @@
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="home.css"/>
+        <script src="home.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="brand">
+               Food 52
+            </div>
+            <div id="social">
+                <a href="www.facebook.com" target="-blank">
+                    <img src="face.webp" alt="fb" class="socialimg"/>
+                </a>
+                <a href="www.instagram.com" target="-blank">
+                    <img src="insta.svg" alt="instagram" class="socialimg"/>
+                </a>
+                <a href="www.telegram.com" target="-blank">
+                    <img src="tele.png" alt="telegram" class="socialimg"/>
+                </a>
+            </div>
+        </header>
+        <div id="search">
+            <div id="logo">
+              <span> Food52</span>
+            </div>
+            <div id="heading">
+                Discover The Best Food & Drinks
+            </div>
+            <div id="dropdown">
+                <select id="select" onChange="getRest()">
+                    <option>----Select City----</option>
+                    <option>Hyderabad</option>
+                    <option>Secunderabad</option>
+                    <option>Jubliee Hills</option>
+                    <option>Banjara Hills</option>
+                </select>
+                <select id="rest">
+                    <option>----Select Restaurants----</option>
+                    <option>TGI Fridays</option>
+                    <option>Paradise</option>
+                    <option>Absolute Barbecues</option>
+                    <option>Almond House</option>
+                </select>
+            </div>        
+        </div>
+        <div id="quicksearch">
+            <div id="quickheading">
+                QuickSearch
+            </div>
+            <div id="quicksubheading">
+                Find Restuarants By Meal Type
+            </div>
+            <div class="maintilecontainer">
+            <div class="tilecontainer">
+             <div class="tilecomponent1">
+                <img src="break.jpg" alt="breakfast"/>
+                </div>
+                <div class="tilecomponent2">
+                <div class="componentheading">
+                <a>Breakfast</a>
+                </div>
+                <div class="componentsubheading">
+                    Best Deal For Breakfast
+                </div>
+                </div>
+                </div>
+                <div class="tilecontainer">
+                    <div class="tilecomponent1">
+                       <img src="lunch.jpg" alt="lunch"/>
+                       </div>
+                       <div class="tilecomponent2">
+                       <div class="componentheading">
+                        <a>Lunch</a>
+                       </div>
+                       <div class="componentsubheading">
+                           Best Deal For Lunch
+                       </div>
+                       </div>
+                       </div>
+                       <div class="tilecontainer">
+                        <div class="tilecomponent1">
+                           <img src="snack.jpg" alt="snack"/>
+                           </div>
+                           <div class="tilecomponent2">
+                           <div class="componentheading">
+                           <a>Snacks</a>
+                           </div>
+                           <div class="componentsubheading">
+                               Best Deal For Snacks
+                           </div>
+                           </div>
+                           </div>
+                           <div class="tilecontainer">
+                            <div class="tilecomponent1">
+                               <img src="dinner.jpg" alt="dinner"/>
+                               </div>
+                               <div class="tilecomponent2">
+                               <div class="componentheading">
+                               <a href="../listing/listing.html">Dinner</a>
+                               </div>
+                               <div class="componentsubheading">
+                                   Best Deal For Dinner
+                               </div>
+                               </div>
+                               </div>
+                               <div class="tilecontainer">
+                                <div class="tilecomponent1">
+                                   <img src="night.jpg" alt="night"/>
+                                   </div>
+                                   <div class="tilecomponent2">
+                                   <div class="componentheading">
+                                   <a>NightLife</a>
+                                   </div>
+                                   <div class="componentsubheading">
+                                       Best Deal For NightLife
+                                   </div>
+                                   </div>
+                                   </div>
+                                   <div class="tilecontainer">
+                                    <div class="tilecomponent1">
+                                       <img src="drink.jpg" alt="drink"/>
+                                       </div>
+                                       <div class="tilecomponent2">
+                                       <div class="componentheading">
+                                       <a>Drinks</a>
+                                       </div>
+                                       <div class="componentsubheading">
+                                           Best Deal For Drinks
+                                       </div>
+                                       </div>
+                                       </div>
+            </div>
+        </div>
+   
+    <footer>
+       <hr>
+       <h3>&copy;Developer Funnel</h3>
+       <div class="fotdiv">
+        <ul>
+            <li>About Us</li>
+            <li>contact Us</li>
+        </ul>
+       </div>
+       <div class="fotdiv">
+        <ul>
+            <li>About Us</li>
+            <li>contact Us</li>
+        </ul>
+       </div>
+       <div class="fotdiv noborder">
+        <ul>
+            <li>About Us</li>
+            <li>contact Us</li>
+        </ul>
+       </div>
+    </footer>
+    <script>
+        window.onload = getCity()
+    </script>
+     </body>
+</html>
