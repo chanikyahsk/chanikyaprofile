@@ -1,0 +1,40 @@
+db.mealType.insert(
+[
+
+    {
+        "mealtype_id": 1,
+        "mealtype": "Breakfast",
+        "content": "Start your day with breakfast options",
+        "meal_image": "https://i.ibb.co/wNNVX9Z/break.jpg"
+    },
+    {
+        "mealtype_id": 2,
+        "mealtype": "Lunch",
+        "content": "Start your day with exclusive lunch options",
+        "meal_image": "https://i.ibb.co/0Y88s3g/lunch.jpg"
+    },
+    {
+        "mealtype_id": 3,
+        "mealtype": "Dinner",
+        "content": "Start your day with exclusive dinner options",
+        "meal_image": "https://i.ibb.co/pQgLwpC/dinner.jpg"
+    },
+    {
+        "mealtype_id": 4,
+        "mealtype": "Snacks",
+        "content": "Start your day with exclusive snacks options",
+        "meal_image": "https://i.ibb.co/x1zvPx2/snack.jpg"
+    },
+    {
+        "mealtype_id": 5,
+        "mealtype": "Drinks",
+        "content": "Start your day with exclusive drinks options",
+        "meal_image": "https://i.ibb.co/QkcQHjR/drink.jpg"
+    },
+    {
+        "mealtype_id": 6,
+        "mealtype": "NightLife",
+        "content": "Start your day with exclusive nightlife options",
+        "meal_image": "https://i.ibb.co/XSChDFp/night.jpg"
+    }
+])

@@ -1,0 +1,632 @@
+db.menu.insert(
+[
+    {
+        "menu_id":1,
+        "menu_name": "Garlic Breadsticks",
+        "description": "Baked to perfection. Your perfect pizza partner! Tastes best with dip",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/03b/787727453bd857cff70be6560bfb603b.png",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":2,
+        "menu_name": "Farmhouse",
+        "description": "Delightful combination of onion, capsicum, tomato & grilled mushroom",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/a3d/7ca006ec8907c2ae13fd006cf0853a3d.png",
+        "menu_type": "vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id":3,
+        "menu_name": "Indi Tandoori Paneer",
+        "description": "It is hot. It is spicy. It is oh-so-Indian. Tandoori paneer with capsicum",
+        "restaurant_id": 1,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/665/febfde767bd3543e6b8d9094f2531665.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "250"
+    },
+    {
+        "menu_id":4,
+        "menu_name": "Non-Veg Cutlet",
+        "description": "each has its unique taste. The crispy fried or baked cutlet goes well with green chutney and tamarind chutney",
+        "restaurant_id": 1,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/non-veg-cutlet.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "300"
+    },
+    {
+        "menu_id":5,
+        "menu_name": "Chicken Kebab",
+        "description": "This amazing option can easily go with any chutney or dip of your choice",
+        "restaurant_id": 1,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/chicken-kebab-4-960x641.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "350"
+    },
+    {
+        "menu_id":6,
+        "menu_name": "Tandoori",
+        "description": "ach and every dish made in tandoor is amazing and people love it.",
+        "restaurant_id": 2,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/tandoori-11-960x560.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":7,
+        "menu_name": "Chicken Patties",
+        "description": "Chicken Patties are filled with minced chicken mix and upper layer is fried or baked.",
+        "restaurant_id": 2,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/chicken-patties.jpeg",
+        "menu_type": "vegetarian",
+        "menu_price": "480"
+    },
+    {
+        "menu_id":8,
+        "menu_name": "Dosa",
+        "description": "Breakfast ",
+        "restaurant_id": 2,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…-most-popular-vegetarian-dishes-of-india/dosa.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    },
+    {
+        "menu_id":9,
+        "menu_name": "Aloo Sandwich",
+        "description": "Breakfast",
+        "restaurant_id": 2,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ular-vegetarian-dishes-of-india/aloo-sandwich.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "80"
+    },
+    {
+        "menu_id":10,
+        "menu_name": "Pav Bhaji",
+        "description": "Pav Bhaji is a holiday meal for all of us.",
+        "restaurant_id": 2,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…-popular-vegetarian-dishes-of-india/paw-bhaji.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+    {
+        "menu_id":11,
+        "menu_name": "Melting Cheese Pannini Sandwich",
+        "description": "Cheese Burst Loaded with Cheese and loads of veggies prepared with special love the speciality dish of Food Adda",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/0c3/3a7e030599f84cf5704f2f1ddc7d30c3.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "259"
+    },
+    {
+        "menu_id":12,
+        "menu_name": "Kadhi Chawal",
+        "description": "Kadhi Chawal is another one bowl meal of India.",
+        "restaurant_id": 3,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…pular-vegetarian-dishes-of-india/kadhi-chawal.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id":13,
+        "menu_name": "Big Burger Pizza",
+        "description": "Food Addas Most Famous Pizza giving you a treat of 7 sauces cheese Mix veggies burger patty nacho and loads of cheese",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/098/9f8dfb95efa7a7211dde74ecf65cc098.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "349"
+    },
+    {
+        "menu_id":14,
+        "menu_name": "Pahadi Tadka Grilled Sandwich",
+        "description": "Onion cabbage capsicum tomato mashed paneer and fusion of 3 pahadi flavour chutneys topped with cheese for perfect taste",
+        "restaurant_id": 3,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/e1d/c71459a34e72a938438f0467c841fe1d.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":15,
+        "menu_name": "Dal-bati-churma",
+        "description": "The Rajasthani delight, Dal- Bati- Churma is a dish with three main constituents.",
+        "restaurant_id": 3,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ar-vegetarian-dishes-of-india/dal-bati-churma.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "160"
+    },
+    {
+        "menu_id":16,
+        "menu_name": "Steamed Simply Chicken",
+        "description": "Chicken stuffed in simply marination and steamed",
+        "restaurant_id": 4,
+        "menu_image": "https://b.zmtcdn.com/data/reviews_photos/2cb/64ffe4cd75031be1aa1cf792337d02cb_1589042698.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "95"
+    },
+    {
+        "menu_id":17,
+        "menu_name": "Chicken Nuggets",
+        "description": "One of the best option to include in your starters menu is chicken nuggets.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/chicken-nuggets.jpeg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "400"
+    },
+    {
+        "menu_id":18,
+        "menu_name": "Momos",
+        "description": "Non-Veg Momos can be made with chicken or mutton. Soft and juicy meaty fillings with a delicate layer of flour taste amazing.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/momos-15.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "170"
+    },
+    {
+        "menu_id":19,
+        "menu_name": "Chicken Sandwich",
+        "description": "The variations can be made in the filings of sandwich or with the bread layers.",
+        "restaurant_id": 4,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/chicken-sandwich-3.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "195"
+    },
+    {
+        "menu_id":20,
+        "menu_name": "Veg Fried Rice",
+        "description": "Indo chinese rice with cabbage,beans and carrot",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/d07/fc409c80b33c04359e2c478efaf0ad07.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "135"
+    },
+    {
+        "menu_id":21,
+        "menu_name": "Egg Fried Rice",
+        "description": "Indo chinese rice with egg",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/10b/ea861a6b68b2c1fd3acdf5d15dbc110b.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "145"
+    },
+    {
+        "menu_id":22,
+        "menu_name": "Chicken Fried Rice",
+        "description": "Indo chinese rice with chicken",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/709/cd30a018a31e9ab7ac6ff59d9a257709.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "155"
+    },
+    {
+        "menu_id":23,
+        "menu_name": "Empire Butter Parotta",
+        "description": "Traditional Porota with butter",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/1c2/ba3bd20a058c36dac83860b8796bd1c2.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id":24,
+        "menu_name": "Onion Parotta",
+        "description": "Onion Stuffed Paratha",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/bda/e1a923742c73790dce1f89a26c26dbda.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "55"
+    },
+    {
+        "menu_id":25,
+        "menu_name": "Egg Parotta",
+        "description": "Egg Layered with traditional Porota",
+        "restaurant_id": 5,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/ddc/67a195b1f94abb3c9b680989498f2ddc.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "89"
+    },
+    {
+        "menu_id":26,
+        "menu_name": "Dhokla",
+        "description": "The Gujarati delicacy Dhokla is a classic Indian snack and has many varieties now.",
+        "restaurant_id": 6,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ost-popular-vegetarian-dishes-of-india/dhokla.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":27,
+        "menu_name": "Dabeli",
+        "description": "Dabeli is a common Chaat dish which is indigenous to both Gujarat and Maharashtra.",
+        "restaurant_id": 6,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ost-popular-vegetarian-dishes-of-india/dabeli.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "199"
+    },
+    {
+        "menu_id":28,
+        "menu_name": "Rajma Chawal",
+        "description": "Rajma Chawal is the Indian answer to one bowl continental meals.",
+        "restaurant_id": 6,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…pular-vegetarian-dishes-of-india/rajma-chawal.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "149"
+    },
+    {
+        "menu_id":29,
+        "menu_name": "Red Indian Pizza - Large (12')",
+        "description": "Hungarian Pepper,Onion,Capsicum,Paneer and Cheese",
+        "restaurant_id": 6,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/8ea/5298eb9874c44688c522714e701058ea.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":30,
+        "menu_name": "Farm Fresh Pizza - Large (12')",
+        "description": "Spinach,Onion ,Tomato and Cheese",
+        "restaurant_id": 7,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/ab0/8dc8997a6acd169c117468954f1a4ab0.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":31,
+        "menu_name": "Chicken Noodles",
+        "description": "Children love noodles and you can very smartly make it a healthy option for your kids and for your party.",
+        "restaurant_id": 7,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/non-veg-noodles-768x461.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "150"
+    },
+    {
+        "menu_id":32,
+        "menu_name": "The Juicy Chicken Burger",
+        "description": "Served with fries",
+        "restaurant_id": 7,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/ecd/d0892dbbbe428d45bcc626c41badcecd.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "200"
+    },
+    {
+        "menu_id":33,
+        "menu_name": "Kanda Poha",
+        "description": "It is an absolute delight to taste and barely takes minutes to cook!",
+        "restaurant_id": 7,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…popular-vegetarian-dishes-of-india/kanda-poha.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "220"
+    },
+    {
+        "menu_id":34,
+        "menu_name": "All American BBQ Chicken Sandwich",
+        "description": "With arizona dip and in toasted focaccia bread.",
+        "restaurant_id": 7,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/c6b/483977dd38433dfb3b28d50808765c6b.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "275"
+    },
+    {
+        "menu_id":35,
+        "menu_name": "Idli – Vada",
+        "description": "Another favourite dish from South India is Idli-Vada which is a common snack item.",
+        "restaurant_id": 7,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…-popular-vegetarian-dishes-of-india/idli-vada.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "99"
+    },
+    {
+        "menu_id":36,
+        "menu_name": "Chole Bhature",
+        "description": "Punjabi style spicy chickpeas served with soft wheat flour bread Bhature",
+        "restaurant_id": 8,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/c3d/0f7c9242099d35bca990bcb08617cc3d.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "179"
+    },
+    {
+        "menu_id":37,
+        "menu_name": "Soups",
+        "description": "some non-veg soups in your menu to give your guests a great experience at your party.",
+        "restaurant_id": 8,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/soups-1-960x720.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "350"
+    },
+    {
+        "menu_id":38,
+        "menu_name": "Dum Chicken Biryani",
+        "description": "Traditional slow cooked, flavorsome chicken layered with long grain basmati rice, served with Raita",
+        "restaurant_id": 8,
+        "menu_image": "https://b.zmtcdn.com/data/pictures/chains/9/1599/a9da9f420de272365ae40824b677ba21.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "329"
+    },
+    {
+        "menu_id":39,
+        "menu_name": "Rolls",
+        "description": "If you are organizing a big party, then you can make a separate section only for rolls.",
+        "restaurant_id": 8,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/rolls-5.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "149"
+    },
+    {
+        "menu_id":40,
+        "menu_name": "Sweet Lassi",
+        "description": "Curd gets wisk with sugar",
+        "restaurant_id": 8,
+        "menu_image": "https://b.zmtcdn.com/data/reviews_photos/921/36ad3e93784f97fda5908d7dd92a9921_1508677751.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "109"
+    },{
+        "menu_id":41,
+        "menu_name": "Aloo Paratha",
+        "description": "Aloo Paratha is the most favourite North-Indian delicacy for all Indians!",
+        "restaurant_id": 9,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…pular-vegetarian-dishes-of-india/aloo-paratha.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "85"
+    },
+    {
+        "menu_id":42,
+        "menu_name": "Chocolate Nutella Cupcake",
+        "description": "Fill the centers of the cupcakes with Nutella, then pipe the Nutella frosting onto the cupcakes.",
+        "restaurant_id": 9,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/258/a05068e6470f56141acf93e81b9d8258.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "85"
+    },
+    {
+        "menu_id":43,
+        "menu_name": "Roasted Almond Chocolate Pastry Cup",
+        "description": "roasted almond cookie cup with seriously dark Italian chocolate.",
+        "restaurant_id": 9,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/5a9/eea8202cc2646fc340d0395bbd0f65a9.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "145"
+    },
+    {
+        "menu_id":44,
+        "menu_name": "Opium Pastry Cup",
+        "description": "Classic genuine filled with chocolate cream",
+        "restaurant_id": 9,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/898/b3e5c9925636511285686e8080514898.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "140"
+    },
+    {
+        "menu_id":45,
+        "menu_name": "Red Velvet Cupcake",
+        "description": "Red velvet cupcakes will taste like cream cheese frosting with a slightly chocolatey cupcake base.",
+        "restaurant_id": 9,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/fc1/616261a54c12519fce698ff322974fc1.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "75"
+    },
+    {
+        "menu_id":46,
+        "menu_name": "American BBQ-Cheese Chicken",
+        "description": "Juicy pieces of barbeque chicken with exotic veggies. Oozing with a layer of cheese, this wrap is a must-have for every party.",
+        "restaurant_id": 10,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/812/168757b5fb61035fe4ea4dff935bb812.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "219"
+    },
+    {
+        "menu_id":47,
+        "menu_name": "Peri Peri Smoky Paneer Tikka",
+        "description": "Soft chunks of paneer infused with peri peri sauce, and grilled perfectly. This zingy starter is a pack of flavours!",
+        "restaurant_id": 10,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/9bd/a2b6f43a8d49a2e200a4df9b26cc89bd.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":48,
+        "menu_name": "Italian Pizza-Cheese Chicken",
+        "description": "A wrap that will give you pizza feels! Roasted chicken, olives, jalapenos in a savoury pizza sauce & cheese. Your favourite pizza toppings, now in a wrap!",
+        "restaurant_id": 10,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b09/cba7f00b9448462c983cfbeb5cfb8b09.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "199"
+    },
+    {
+        "menu_id":49,
+        "menu_name": "Bring-it-on BBQ Chicken",
+        "description": "Super soft chicken pieces with smokey barbeque sauce. This anytime-starter is an all-time fave!",
+        "restaurant_id": 10,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/e97/73430a48ff2c3eee2364d8f8b220ae97.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "189"
+    },
+    {
+        "menu_id":50,
+        "menu_name": "Khichdi",
+        "description": "Khichdi is a meal for a rainy day!",
+        "restaurant_id": 10,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…st-popular-vegetarian-dishes-of-india/khichdi.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "79"
+    },
+    {
+        "menu_id":51,
+        "menu_name": "King Fries",
+        "description": "The perfect crispy partner.",
+        "restaurant_id": 11,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/2dc/7d31d7425ab6de31e2e92806561352dc.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "99"
+    },{
+        "menu_id":52,
+        "menu_name": "Chilly Paneer",
+        "description": "Chilly Paneer has a huge fan following amongst the vegetarians in the country.",
+        "restaurant_id": 11,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ular-vegetarian-dishes-of-india/chilly-paneer.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "169"
+    },
+    {
+        "menu_id":53,
+        "menu_name": "Crispy Chicken Burger",
+        "description": "Our best-selling burger with crispy chicken patty, fresh onion and our signature sauce.",
+        "restaurant_id": 11,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/e6b/251f04208ee79ba396b192d87a7abe6b.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "80"
+    },
+    {
+        "menu_id":54,
+        "menu_name": "Crispy Veg Combo",
+        "description": "Our best-selling burger with crispy veg patty, fresh onion and our signature sauce. Comes with Fries + Exclusive Pepsi.",
+        "restaurant_id": 11,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/135/b2a0cc85a53134ba273cc30efdb00135.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "209.14"
+    },
+    {
+        "menu_id":55,
+        "menu_name": "Veg Crunchy Volcano",
+        "description": "Be ready for a crunchy, saucy, explosion. A crunchy volcano shell filled with beans & veg mix, chef's secret sauce, fresh onion & crisp lettuce.",
+        "restaurant_id": 11,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/af9/b871732b39c98fc8f26f9044c1afeaf9.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "60"
+    },
+    {
+        "menu_id":56,
+        "menu_name": "Cream Mushroom Pasta",
+        "description": "Served with herb garlic toast. Flavourful blend of Italian herbs and bechamel and Parmesan cheese in crunchy sauteed mushrooms.",
+        "restaurant_id": 12,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/bc6/7e32e9359a342ab0ff16144750689bc6.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "335"
+    },
+    {
+        "menu_id":57,
+        "menu_name": "Paneer Tikka Sandwich",
+        "description": "Served with potato chips. Fresh cottage cheese cubes with green capsicum and onions marinated in spicy tikka sauce.",
+        "restaurant_id": 12,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/b1f/a9bf008b440e754c981747a6752feb1f.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "235"
+    },
+    {
+        "menu_id":58,
+        "menu_name": "Coffee Frappe",
+        "description": "A smooth blend of coffee, milk and gelato.",
+        "restaurant_id": 12,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/5f7/6a7f76f41dda047eb30dbc003f4e95f7.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "185"
+    },
+    {
+        "menu_id":59,
+        "menu_name": "Cheese Omelette",
+        "description": "Omelette Filled with cheese",
+        "restaurant_id": 12,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/359/b5f48db2ce7c7f3672701bf6847e5359.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "265"
+    },
+    {
+        "menu_id":60,
+        "menu_name": "Chicken Lollipop",
+        "description": "Chicken Lollipop are favorite among children and it is very easy to eat for them.",
+        "restaurant_id": 12 ,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/chicken-lollipop-960x540.jpg",
+        "menu_type": "non-vegetarian",
+        "menu_price": "325"
+    },
+    {
+        "menu_id":61,
+        "menu_name": "Grilled Malai Chaap",
+        "description": "Marinated soya chaap in fresh garlic cream, soft and juicy.",
+        "restaurant_id": 13,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/ee9/223949a94fb3cbeebd5db5cc0a7a4ee9.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "219"
+    },
+    {
+        "menu_id":62,
+        "menu_name": "Aloo Mutter Gravy Jeera Rice Bowl",
+        "description": "Delicious gravy served with jeera rice in a bowl.",
+        "restaurant_id": 13,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/1fe/952e528db42a04d6833c15dec4c0f1fe.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "209"
+    },
+    {
+        "menu_id":63,
+        "menu_name": "Jeera Rice",
+        "description": "Jeera rice or zeera rice is an Indian dish consisting of rice and cumin seeds. It is a popular dish in North India as an everyday rice dish.",
+        "restaurant_id": 13,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/38a/ce8b387cd48d5244358abf896dc3538a.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "114.45"
+    },
+    {
+        "menu_id":64,
+        "menu_name": "Tamarind Rice",
+        "description": "South Indian dish where the rice is cooked much like a Pulau except with different flavours.",
+        "restaurant_id": 13,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…ular-vegetarian-dishes-of-india/tamarind-rice.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "72.45"
+    },
+    {
+        "menu_id":65,
+        "menu_name": "Grilled Aachari Chaap",
+        "description": "Marinated soya chaap with Indian aachari flavor.",
+        "restaurant_id": 13,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/2be/299a14e3129d374e74d6fb3a0100e2be.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "219"
+    },
+    {
+        "menu_id":66,
+        "menu_name": "Carrot Halwa",
+        "description": "grated carrots in a pot containing a specific amount of water, milk and sugar, cardamom and then cooking while stirring regularly.",
+        "restaurant_id": 14,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/2e8/c4494d10535a8c36007e32b018c1c2e8.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "50"
+    },
+    {
+        "menu_id":67,
+        "menu_name": "Onion Rava Masala Dosa",
+        "description": "made with semolina, cumin, ginger, coriander leaves and green chilies.",
+        "restaurant_id": 14,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/d12/b02c41f4e11d43bb345865a35f505d12.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "100"
+    },
+     {
+        "menu_id":68,
+        "menu_name": "Paper Plain Dosa",
+        "description": "made with semolina, cumin, ginger, coriander leaves and green chilies.",
+        "restaurant_id": 14,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/ce8/1d5acfa248f6244bcf518f1c89d2dce8.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "90"
+    },
+    {
+        "menu_id":69,
+        "menu_name": "Poori Sagu [3 Pieces]",
+        "description": "Serve Poori with Sagu",
+        "restaurant_id": 14,
+        "menu_image": "https://b.zmtcdn.com/data/dish_photos/542/6ab4d40d01abbe154433155ef4c6b542.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "60"
+    },
+    {
+        "menu_id":70,
+        "menu_name": "Upma",
+        "description": "As one of those classic breakfast recipes, no one can deny their undeniable love for Upma.",
+        "restaurant_id": 14,
+        "menu_image": "https://www.crazymasalafood.com/wp-content/images/…-most-popular-vegetarian-dishes-of-india/upma.jpg",
+        "menu_type": "vegetarian",
+        "menu_price": "40"
+    }
+   
+])
